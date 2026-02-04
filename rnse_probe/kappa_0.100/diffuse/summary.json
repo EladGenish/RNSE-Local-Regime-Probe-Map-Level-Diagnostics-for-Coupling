@@ -1,0 +1,44 @@
+{
+  "kappa": 0.1,
+  "ticks": 2000,
+  "grid": [
+    60,
+    20
+  ],
+  "window": 80,
+  "roi": {
+    "w": 10,
+    "h": 6
+  },
+  "roi_probe": {
+    "Lambda_roi_mean": 0.5868600233631379,
+    "Lambda_bg_mean": 0.5860101198644971,
+    "Delta_Lambda_roi_minus_bg": 0.0008499034986407805,
+    "chi_roi_mean": 0.9035049796793259,
+    "chi_bg_mean": 0.8750519511588578,
+    "Delta_chi_roi_minus_bg": 0.02845302852046805
+  },
+  "coupling": {
+    "metric": "abs(corr(chi, Lambda))",
+    "roi_only": {
+      "r_obs": 0.515741216445269,
+      "p_perm_two_sided": 0.002997002997002997,
+      "n_perm": 1000
+    },
+    "global": {
+      "r_obs": 0.490019257209213,
+      "p_perm_two_sided": 0.000999000999000999,
+      "n_perm": 1000
+    }
+  },
+  "field_summary": {
+    "Lambda_min": 0.45163883877167643,
+    "Lambda_max": 0.6192385448657113,
+    "Lambda_mean": 0.5860526150394292,
+    "Lambda_std": 0.02475640427797916,
+    "chi_min": 0.0,
+    "chi_max": 0.9874210063194945,
+    "chi_mean": 0.8764746025848812,
+    "chi_std": 0.2817276070502883
+  }
+}
