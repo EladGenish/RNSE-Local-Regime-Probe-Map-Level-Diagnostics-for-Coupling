@@ -2,6 +2,7 @@ RNSE Local Regime Probe
 
 Map-Level Diagnostics for χ–Λ Coupling
 
+
 This repository contains a diagnostic probe for the Recursive Null-Seed Engine (RNSE), designed to test local regime separability using map-level measurements rather than global scalars.
 
 The goal is not to characterize engine internals, convergence, or optimization behavior, but to evaluate observer-side validity: whether structured inputs produce distinguishable, localized observable regimes under controlled coupling.
